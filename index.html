@@ -3,7 +3,10 @@
 
   <head>
     <meta charset="utf-8">
-
+    <script>
+      window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+    </script>
+    <script defer src="/_vercel/insights/script.js"></script>
     <!-- Page Title-->
     <title>Trương Nhựt Khương</title>
 
@@ -856,7 +859,7 @@
     <script src="js/gallery-init.js"></script>
     <script src="js/custom.js"></script>
     <!-- Load Scripts End -->
-
+    import { inject } from "@vercel/analytics"
   </body>
 
 </html>
